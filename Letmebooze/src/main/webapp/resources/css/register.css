@@ -1,0 +1,261 @@
+@CHARSET "ISO-8859-1";
+
+#regpg {
+	background: none repeat scroll 0 0 #333333;
+	border-radius: 15px 15px 15px 15px;
+	height: 550px;
+	position: absolute;
+	width: 400px;
+	z-index: 999;
+	display: none;
+	margin-left: 305px;
+}
+
+.block {
+
+    height: 16px;
+    margin-top: 25px;
+    position: relative;
+    width: 320px;
+}
+.cancel {
+float: right;
+    margin-right: 10px;
+}
+.cancel a{
+color: buttonface;
+    text-decoration: none;
+}
+h4 {
+color: buttonshadow;
+}
+.fn {
+	float: left;
+}
+
+.fn h4 {
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.fn_field {
+	float: right;
+}
+
+.ln {
+	float: left;
+}
+
+.ln h4 {
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.ln_field {
+	float: right;
+}
+
+.dob {
+	float: left;
+}
+
+.dob h4 {
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.dob_field {
+	float: right;
+}
+
+.eml {
+	float: left;
+}
+
+.eml h4 {
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.eml_field {
+	float: right;
+}
+
+.phn {
+	float: left;
+}
+
+.phn h4 {
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.phn_field {
+	float: right;
+}
+
+.pass {
+	float: left;
+}
+
+.pass h4 {
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.pass_field {
+	float: right;
+}
+
+.rpass {
+	float: left;
+}
+
+.rpass h4 {
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.rpass_field {
+	float: right;
+}
+
+.adrs {
+	float: left;
+}
+
+.adrs h4 {
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.adrs_field {
+	float: right;
+}
+
+.city {
+	float: left;
+}
+
+.city h4 {
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.city_field {
+	float: right;
+}
+
+.state {
+	float: left;
+}
+
+.state h4 {
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.state_field {
+	float: right;
+}
+
+.cntry {
+	float: left;
+}
+
+.cntry h4 {
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.cntry_field {
+	float: right;
+}
+
+.pncd {
+	float: left;
+}
+
+.pncd h4 {
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.pncd_field {
+	float: right;
+}
+
+.picker {
+	height: 16px;
+	width: 16px;
+	background: url("resources/images/icons/cal.gif") no-repeat;
+	margin-left: -19px;
+	cursor: pointer;
+	border: none;
+}
+.regbtn {
+    color: #FFFFFF;
+    float: left;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    position: relative;
+ }
+.regbtn ul
+{
+    padding:0px;
+    margin:0;
+    list-style:none;
+}
+.regbtn ul li {
+    background: none repeat scroll 0 0 #616161;
+    border-radius: 15px 15px 15px 15px;
+    border-right: 1px solid #000000;
+    float: left;
+    margin: 20px;
+    width: 120px;
+	}
+.regbtn ul li a
+{    color:#FFF;
+    display:block;
+    text-decoration:none;
+    padding:0 25px;
+	border-radius: 15px 15px 15px 15px;
+}
+.regbtn ul li a:hover
+{    background:#3ea5ea;
+    color:#000;
+}
+.rstbtn {
+    color: #FFFFFF;
+    float: right;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    position: relative;
+ }
+.rstbtn ul
+{
+    padding:0px;
+    margin:0;
+    list-style:none;
+}
+.rstbtn ul li {
+    background: none repeat scroll 0 0 #616161;
+    border-radius: 15px 15px 15px 15px;
+    border-right: 1px solid #000000;
+    float: left;
+    margin: 20px;
+    width: 120px;
+	}
+.rstbtn ul li a
+{    color:#FFF;
+    display:block;
+    text-decoration:none;
+    padding:0 25px;
+	border-radius: 15px 15px 15px 15px;
+}
+.rstbtn ul li a:hover
+{    background:#3ea5ea;
+    color:#000;
+}

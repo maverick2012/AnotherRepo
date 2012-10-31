@@ -1,0 +1,137 @@
+.innerbody {
+}
+.storeinfomenu {
+float: left;
+height: 200px;
+margin-top: 15px;
+width: 680px;
+}
+.store {
+width: 640px;
+height: 180px;
+margin-top: 10px;
+}
+.storeimg {
+width: 160px;
+height: 150px;
+border: 1px solid;
+float: left;
+}
+.storeinfo {
+margin-top: 10px;
+margin-right: 10px;
+width: 450px;
+float: right;
+height: 160px;
+position: relative;
+}
+.name {
+float: left;
+margin-left: 20px;
+}
+.address {
+float: left;
+margin-left: -145px;
+margin-top: 50px;
+}
+.gm_img {
+border: 1px solid;
+width: 60px;
+height: 60px;
+float: left;
+margin-top: 80px;
+margin-left: -245px;
+}
+.g_nm {
+margin-top: 100px;
+margin-left: -100px;
+}
+.menuinfo {
+margin-top: 25px;
+width: 680px;
+height: 290px;
+}
+.seprtr {
+border: 1px solid;
+float: right;
+height: 505px;
+margin-right: 345px;
+margin-top: 15px;
+position: relative;
+width: 0;
+}
+.detail_cart {
+height: 505px;
+width: 320px;
+float: right;
+margin-right: -335px;
+margin-top: 15px;
+}
+.detail {
+height: 200px;
+width: 310px;
+border: 1px solid;
+position: relative:
+}
+.detail h4 {
+margin-top: 0px;
+}
+.cart {
+border: 1px solid;
+width: 310px;
+height: 290px;
+margin-top: 12px;
+}
+.cart h4 {
+margin-top: 0px;
+}
+.tab {
+height: 25px;
+width: 680px;
+margin-left: -1px;
+}
+.menu {
+float: left;
+height: 25px;
+width: 200px;
+}
+#tab {
+float: left;
+}
+#tab ul {
+list-style: none outside none;
+margin: 0;
+padding: 0;
+width: 600px;
+}
+#tab li {
+display: inline;
+margin: 0 2px 0 0;
+width: 200px;
+}
+#tab a {
+background: none repeat scroll 0 0 #77FFFF;
+color: #444444;
+padding: 0 4em 0.3em;
+text-decoration: none;
+}
+#tab a:hover {
+background: none repeat scroll 0 0 #00CCFF;
+color: #554400;
+}
+#tab #selected a {
+background: none repeat scroll 0 0 #00CCFF;
+color: black;
+font-weight: bold;
+padding-bottom: 4px;
+}
+#content {
+background: none repeat scroll 0 0 ##00CCFF;
+border-top: 26px solid white;
+padding: 1em;
+}
+#content p {
+height: 215px;
+margin: -16px 0 0;
+padding: 1em;
+width: 615px;}
