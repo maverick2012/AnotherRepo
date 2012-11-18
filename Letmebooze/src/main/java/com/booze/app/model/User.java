@@ -16,7 +16,12 @@ public class User {
 	private String lastName = null;
 	private String sex = null;
 	private String email = null;
+	private long phoneNumber = 0;
+	private String address = null;
+	private String password = null;
+	private String defaultLocation = null;
 	private Date dateOfBirth = null;
+	private long memberId = 0;
 	/**
 	 * @return the id
 	 */
@@ -137,8 +142,11 @@ public class User {
 	public void setDateOfBirth(Date dateOfBirth) {
 		this.dateOfBirth = dateOfBirth;
 	}
-	private long phoneNumber = 0;
-	private String address = null;
-	private String password = null;
-	private String defaultLocation = null;
+	public long getMemberId() {
+		return memberId;
+	}
+	public void setMemberId(long memberId) {
+		this.memberId = memberId;
+	}
+	
 }
