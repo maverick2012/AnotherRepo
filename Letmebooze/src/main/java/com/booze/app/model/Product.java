@@ -6,7 +6,7 @@ package com.booze.app.model;
 /**
  * @author Sushant
  *
- */
+ * Kumar Singh/
 public class Product {
 
 	private long id = 0;
