@@ -12,6 +12,7 @@
 		<org.springframework-version>3.1.0.RELEASE</org.springframework-version>
 		<org.aspectj-version>1.6.9</org.aspectj-version>
 		<org.slf4j-version>1.5.10</org.slf4j-version>
+        <basedir>E:/Ankur/Workspace/AnotherRepo/Letmebooze</basedir>
 	</properties>
 	<dependencies>
 		<!-- Spring -->
@@ -157,6 +158,31 @@
                 <version>1.2.1</version>
                 <configuration>
                     <mainClass>org.test.int1.Main</mainClass>
+                </configuration>
+            </plugin>
+            
+            <plugin>
+                <groupId>ro.isdc.wro4j</groupId>
+                <artifactId>wro4j-maven-plugin</artifactId>
+                <version>1.4.5</version>
+                <executions>
+                    <execution>
+                        <phase>compile</phase>
+                        <goals>
+                            <goal>run</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <minimize>false</minimize>
+                    <targetGroups>bootstrap</targetGroups>
+                    <destinationFolder>${project.build.directory}/${project.build.finalName}</destinationFolder>
+                    <cssDestinationFolder>${project.build.directory}/${project.build.finalName}/css/</cssDestinationFolder>
+                    <jsDestinationFolder>${project.build.directory}/${project.build.finalName}/js/</jsDestinationFolder>
+                    <contextFolder>${basedir}/src/main/webapp/</contextFolder>
+                    <wroFile>${basedir}/src/main/webapp/WEB-INF/wro.xml</wroFile>
+                    <extraConfigFile>${basedir}/src/main/resources/wro.properties</extraConfigFile>
+                    <wroManagerFactory>ro.isdc.wro.maven.plugin.manager.factory.ConfigurableWroManagerFactory</wroManagerFactory>
                 </configuration>
             </plugin>
         </plugins>
