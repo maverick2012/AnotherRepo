@@ -58,7 +58,7 @@ public class LoginController {
 		User user = new User();
 		user.setFirstName("Guest!");
 		model.addAttribute(user);
-		return "home";
+		return "login";
 	}
 	
 	
