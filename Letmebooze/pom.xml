@@ -121,8 +121,17 @@
 			<artifactId>junit</artifactId>
 			<version>4.7</version>
 			<scope>test</scope>
-		</dependency>        
+		</dependency>
+		
+		<!-- Tiles -->
+		
+		<dependency>
+			<groupId>org.apache.tiles</groupId>
+			<artifactId>tiles-extras</artifactId>
+			<version>2.2.0</version>
+		</dependency>
 	</dependencies>
+	
     <build>
     	<finalName>booze</finalName>
         <plugins>
