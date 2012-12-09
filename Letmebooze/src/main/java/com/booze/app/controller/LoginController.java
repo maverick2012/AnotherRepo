@@ -50,7 +50,7 @@ public class LoginController {
 		model.addAttribute("user", "Sushant Kumar Singh");
 		model.addAttribute("value", flag);
 		
-		return "login";
+		return "layout.login";
 	}
 	
 	@RequestMapping(value = "/Login", method = RequestMethod.GET)
@@ -58,7 +58,7 @@ public class LoginController {
 		User user = new User();
 		user.setFirstName("Guest!");
 		model.addAttribute(user);
-		return "home";
+		return "layout.login";
 	}
 	
 	
@@ -70,6 +70,6 @@ public class LoginController {
 		user.setPassword(password);
 		user = this.userService.getUser(user);
 		model.addAttribute(user);
-		return "home";
+		return "layout.home";
 	}
 }
