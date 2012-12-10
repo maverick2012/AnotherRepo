@@ -14,7 +14,7 @@
 		
 		<definition name="layout.login" extends="layout.main">
 			<put-attribute name="page.title" value="Letmebooze : Login" />
-			<put-attribute name="page.body" value="/WEB-INF/views/login.jsp" />
+			<put-attribute name="page.body" value="/WEB-INF/views/booze/login.jsp" />
             <put-list-attribute name="page.css">
                 <add-attribute value="resources/css/booze/login.css"></add-attribute>
             </put-list-attribute>
@@ -25,7 +25,7 @@
   
         <definition name="layout.home" extends="layout.main">
             <put-attribute name="page.title" value="Letmebooze" />
-            <put-attribute name="page.body" value="/WEB-INF/views/home.jsp" />
+            <put-attribute name="page.body" value="/WEB-INF/views/booze/home.jsp" />
             <put-list-attribute name="page.css">
                 <add-attribute value="resources/css/booze/main.css"></add-attribute>
             </put-list-attribute>
