@@ -16,10 +16,10 @@
 			<put-attribute name="page.title" value="Letmebooze : Login" />
 			<put-attribute name="page.body" value="/WEB-INF/views/login.jsp" />
             <put-list-attribute name="page.css">
-                <add-attribute value="/resources/css/booze/login.css"></add-attribute>
+                <add-attribute value="resources/css/booze/login.css"></add-attribute>
             </put-list-attribute>
             <put-list-attribute name="page.js">
-                <add-attribute value="/resources/js/booze/login.js"></add-attribute>
+                <add-attribute value="resources/js/booze/login.js"></add-attribute>
             </put-list-attribute>
 		</definition>
   
@@ -27,10 +27,10 @@
             <put-attribute name="page.title" value="Letmebooze" />
             <put-attribute name="page.body" value="/WEB-INF/views/home.jsp" />
             <put-list-attribute name="page.css">
-                <add-attribute value="/resources/css/booze/main.css"></add-attribute>
+                <add-attribute value="resources/css/booze/main.css"></add-attribute>
             </put-list-attribute>
             <put-list-attribute name="page.js">
-                <add-attribute value="/resources/js/booze/login.js"></add-attribute>
+                <add-attribute value="resources/js/booze/booze.js"></add-attribute>
             </put-list-attribute>
         </definition>
 	
