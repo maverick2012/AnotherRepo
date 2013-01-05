@@ -3,15 +3,18 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 
 <div class="header">
-	<div class="left_header">
+	<div class="left">
 		<div class="logo">
-			<img class="logo" src="resources/images/LetMeBoozeLogo.png"
-				alt="logo">
+			<img class="logo" src="resources/images/LetMeBoozeLogo.png" alt="logo">
 		</div>
 	</div>
-	<div class="right_header">
-		<div class="user" onclick="ll();">
-			Welcome<span>${user.firstName}</span>
+	<div class="right">
+		<div class="user">
+			Welcome <span>
+			<c:choose>
+				<c:when test = "${empty user.firstName}">Guest !</c:when>
+				<c:otherwise>${user.firstName} !</c:otherwise>
+			</c:choose></span>
 		</div>
 		<div class="login">
 			<ul id="log" onclick="loginpg();">

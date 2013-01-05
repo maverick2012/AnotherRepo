@@ -1,13 +1,26 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
-<div class="footerbg" style="height: 40px;">
-	<div class="footer">
-		<a href="#">Blog</a> <a href="#">About Us</a> <a href="#">Careers</a>
-		<a href="#">Terms And Conditions</a> <a href="#">Privacy</a> <a
-			href="#">FAQ</a>
-	</div>
-	<div class="icon">
-		<a href="#"><img src="resources/images/face.jpg" alt="Facebook" /></a>
-		<a href="#"><img src="resources/images/twitter.jpg" alt="Twitter" /></a>
+<div class="footer">
+	<div class = "footer_upper">
+		<div class = "footer_links left">
+			<nav class = "links">
+				<a href = "javascript:;">Home</a>
+				<a href = "javascript:;">About Us</a>				
+				<a href = "javascript:;">Blog</a>
+				<a href = "javascript:;">FAQ</a>
+				<a href = "javascript:;">Careers</a>
+			</nav>
+		</div>
+		<div class = "footer_social right">
+			
+		</div>
 	</div>
 </div>
+
+<script type="text/javascript" src="resources/js/jquery/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="resources/js/jquery/plugins/jquery-ui-1.9.1.custom.min.js"></script>
+<script type="text/javascript" src="resources/js/jquery/plugins/chosen.jquery.min.js"></script>
+<script type="text/javascript" src="resources/js/jquery/plugins/jquery.colorbox.min.js"></script>
+<script type="text/javascript" src="resources/js/plugin/Date.js"></script>
+<script type="text/javascript" src="resources/js/plugin/html5shiv-print.js"></script>
+<script type="text/javascript" src="resources/js/booze/util/BoozeUtil.js"></script>

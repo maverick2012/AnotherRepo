@@ -1,3 +1,4 @@
+
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <%@ taglib uri="http://tiles.apache.org/tags-tiles" prefix="tiles"%>
@@ -23,19 +24,13 @@
 	</c:forEach>
 </head>
 <body>
-	<tiles:insertAttribute name="page.header" />
-	<div class = "mainBodyContainer">
-	   <tiles:insertAttribute name="page.body" />
+	<div class = "outerContainer">
+		<tiles:insertAttribute name="page.header" />
+		<div class = "mainBodyContainer">
+		   <tiles:insertAttribute name="page.body" />
+		</div>
+		<tiles:insertAttribute name="page.footer" />
 	</div>
-	<tiles:insertAttribute name="page.footer" />
-	
-	<script type="text/javascript" src="resources/js/jquery/jquery-1.7.2.min.js"></script>
-	<script type="text/javascript" src="resources/js/jquery/plugins/jquery-ui-1.9.1.custom.min.js"></script>
-	<script type="text/javascript" src="resources/js/jquery/plugins/chosen.jquery.min.js"></script>
-	<script type="text/javascript" src="resources/js/jquery/plugins/jquery.colorbox.min.js"></script>
-	<script type="text/javascript" src="resources/js/plugin/Date.js"></script>
-	<script type="text/javascript" src="resources/js/plugin/html5shiv-print.js"></script>
-	<script type="text/javascript" src="resources/js/booze/util/BoozeUtil.js"></script>
 	
 	<tiles:useAttribute id="pageJs" name="page.js" classname="java.util.List" />
 	<c:forEach items="${pageJs}" var="js">
