@@ -47,7 +47,7 @@ public class LoginController {
 		user.setDateOfBirth(dateOfBirth);
 		user.setPassword("123456");
 		boolean flag = this.userService.saveUser(user);
-		model.addAttribute("user", "Sushant Kumar Singh");
+		model.addAttribute("user", user);
 		model.addAttribute("value", flag);
 		
 		return "layout.login";
@@ -55,21 +55,6 @@ public class LoginController {
 	
 	@RequestMapping(value = "/Login", method = RequestMethod.GET)
 	public String login(Locale locale, Model model) {
-		User user = new User();
-		user.setFirstName("Guest!");
-		model.addAttribute(user);
 		return "layout.login";
-	}
-	
-	
-	@RequestMapping(value = "/Home", method = RequestMethod.POST)
-	public String home(Locale locale, Model model, @RequestParam String email, @RequestParam String password) {
-
-		User user = new User();
-		user.setEmail(email);
-		user.setPassword(password);
-		user = this.userService.getUser(user);
-		model.addAttribute(user);
-		return "layout.home";
 	}
 }

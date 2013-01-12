@@ -1,17 +1,16 @@
-.left{
-	float: left;
-}
-
-.right{
-	float: right;
-}
-
-.cf:before,
-.cf:after {
-    content: " ";
-    display: table;
-}
-
-.cf:after {
-    clear: both;
+body{font: normal 14px Arial;margin:0;}
+.left{float: left;}
+.right{	float: right;}
+.cf:before,.cf:after {content: " ";display: table;}
+.cf:after {clear: both;}
+ul,li{margin: 0; padding:0;}
+ul{list-style: none outside none;}
+a{color: #336699; text-decoration:none;}
+body .mainBodyContainer {
+	-webkit-box-shadow: 0 4px 5px #999; /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+          box-shadow: 0px 4px 5px #999; /* Opera 10.5, IE9+, Firefox 4+, Chrome 6+, iOS 5 */
+	margin: 0 auto;
+	min-height: 400px;
+	padding: 20px 15px;
+	width: 960px;
 }
