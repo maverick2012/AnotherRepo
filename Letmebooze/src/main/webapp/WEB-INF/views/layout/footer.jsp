@@ -19,7 +19,6 @@
 
 <script type="text/javascript" src="resources/js/jquery/jquery-1.7.2.min.js"></script>
 <script type="text/javascript" src="resources/js/jquery/plugins/jquery-ui-1.9.1.custom.min.js"></script>
-<script type="text/javascript" src="resources/js/jquery/plugins/chosen.jquery.min.js"></script>
 <script type="text/javascript" src="resources/js/jquery/plugins/jquery.colorbox.min.js"></script>
 <script type="text/javascript" src="resources/js/plugin/Date.js"></script>
 <script type="text/javascript" src="resources/js/plugin/html5shiv-print.js"></script>

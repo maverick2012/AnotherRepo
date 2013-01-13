@@ -10,7 +10,6 @@
 	<title><tiles:insertAttribute name="page.title" ignore="true" /></title>
 	
 	<!-- Common CSS files goes here. -->
-	<link rel="stylesheet" type="text/css" href="resources/css/plugin/jquery.chosen.css">
 	<link rel="stylesheet" type="text/css" href="resources/css/booze/reset.css">
 	<link rel="stylesheet" type="text/css" href="resources/css/booze/common.css">
 	<link rel="stylesheet" type="text/css" href="resources/css/booze/reset.css">
