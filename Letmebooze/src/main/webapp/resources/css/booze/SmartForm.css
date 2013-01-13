@@ -1,0 +1,108 @@
+.smartForm .text {
+	border: 1px solid #CCCCCC;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: -1px -1px 0 0 #EFEFEF;
+	box-shadow: -1px -1px 0 0 #EFEFEF;
+	margin: 10px 0;
+	padding: 6px 8px 3px;
+	position: relative;
+	width: 180px;
+}
+
+.smartForm .text label {
+	color: #999999;
+	font-size: 14px;
+	opacity: 1;
+	position: absolute;
+}
+
+.smartForm .text input {
+	background: none repeat scroll 0 0 transparent;
+	border: 0 none;
+	color: #333333;
+	font: 14px arial;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	vertical-align: top;
+	width: 100%;
+}
+
+.smartForm .text.textFocus {
+	border: 1px solid #63CBD8;
+	box-shadow: 0 0 1px 1px #63CBD8;
+}
+
+.smartForm .text.textFocus label {
+	opacity: 0.5;
+}
+
+.smartForm .select.customSelect {
+	border: 1px solid #CCCCCC;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: -1px -1px 0 0 #EFEFEF box-shadow:  -1px -1px 0 0
+		#EFEFEF;
+	height: 28px;
+	position: relative;
+	width: 196px;
+}
+
+.smartForm .select.customSelect .selectedValue {
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	color: #333333;
+	padding: 6px;
+	position: absolute;
+	width: 184px;
+}
+
+.smartForm .select.customSelect .selectVisible {
+	background-color: #0ACFD6 !important;
+	background-image: none !important;
+	color: #f7f7f7;
+}
+
+.smartForm .customSelect .downArrow {
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 10px solid #0ACFD6;
+	cursor: pointer;
+	position: absolute;
+	right: 8px;
+	top: 8px;
+	z-index: 99;
+}
+
+.smartForm .customSelect ul {
+	border-style: solid;
+	border-width: 0 1px 1px;
+	border-color: #ccc;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	color: #F7F7F7;
+	display: none;
+	left: -1px;
+	overflow-y: auto;
+	position: relative;
+	top: 24px;
+	width: 196px;
+	z-index: 99;
+}
+
+.smartForm .customSelect ul li {
+	background-color: #0ACFD6;
+	border-bottom: 1px solid #A6F2F4;
+	border-top: 1px solid #DEF8F9;
+	cursor: pointer;
+	padding: 6px;
+}
+
+.smartForm .customSelect ul li.firstRow {
+	border-top: none;
+}
+
+.smartForm .customSelect ul li.lastRow {
+	border-bottom: none;
+}

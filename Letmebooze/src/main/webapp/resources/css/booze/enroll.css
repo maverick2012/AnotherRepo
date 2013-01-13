@@ -1,0 +1,11 @@
+.enrollment .title {
+	color: #38D8ED;
+	font: bold 32px Arial;
+	margin: 10px 0;
+}
+
+.enrollment .subTitle {
+	color: #999999;
+	font: 18px Arial;
+	margin: 10px 0;
+}

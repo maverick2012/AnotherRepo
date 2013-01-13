@@ -39,9 +39,11 @@
             <put-attribute name="page.body" value="/WEB-INF/views/booze/enroll.jsp" />
             <put-list-attribute name="page.css">
                 <add-attribute value="resources/css/booze/enroll.css"></add-attribute>
+                <add-attribute value="resources/css/booze/SmartForm.css"></add-attribute>
             </put-list-attribute>
             <put-list-attribute name="page.js">
                 <add-attribute value="resources/js/booze/enroll.js"></add-attribute>
+                <add-attribute value="resources/js/booze/util/SmartForm.js"></add-attribute>
             </put-list-attribute>
         </definition>
 	

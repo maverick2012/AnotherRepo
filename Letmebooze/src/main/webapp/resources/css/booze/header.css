@@ -10,9 +10,23 @@
 	/* Opera 11.10-12.00 */
 	background-image: linear-gradient(to bottom, #789aaa, #ddd);
 	/* Firefox 16+, IE10, Opera 12.50+ */
-	border-bottom : 4px solid #eee;
+	border-bottom: 4px solid #eee;
 	padding: 10px;
 }
-.header .headerNav li{color:#fff;float:left;}
-.header .headerNav li a{color: #FFFFFF;font-size: 14px;margin: 0 4px}
-.header .user{color: #FFFFFF;font-weight: bold;padding-top: 1px;}	
+
+.header .headerNav li {
+	color: #fff;
+	float: left;
+}
+
+.header .headerNav li a {
+	color: #FFFFFF;
+	font-size: 14px;
+	margin: 0 4px
+}
+
+.header .user {
+	color: #FFFFFF;
+	font-weight: bold;
+	padding-top: 1px;
+}
