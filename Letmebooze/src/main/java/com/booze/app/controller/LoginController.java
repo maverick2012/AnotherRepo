@@ -55,6 +55,10 @@ public class LoginController {
 	
 	@RequestMapping(value = "/Login", method = RequestMethod.GET)
 	public String login(Locale locale, Model model) {
+		/*logger.info("Welcome home! the client locale is "+ locale.toString());
+		User user = new User();
+		user.setFirstName("Guest!");
+		model.addAttribute(user);*/
 		return "layout.login";
 	}
 }
